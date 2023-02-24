@@ -5,3 +5,6 @@ class animal:
 
     def __str__(self):
         return f'Animal [name={self.name}]'
+
+    def get_name(self):
+        return self.name
